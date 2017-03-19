@@ -53,7 +53,7 @@ h6 {
 
 h1.entry-title {
   font-family: "Montserrat" !important;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -75,6 +75,17 @@ hr {
 .site-logo-link img {
   width: 180px;
   height: 180px;
+}
+
+.site-banner-header {
+	bottom: inherit;
+	top: 6rem;
+}
+
+/* gradient at bottom of slideshow */
+.site-banner .site-banner-media:before,
+.banner-custom-header .site-banner-media:before {
+	top: 10%;
 }
 
 @media only screen and (max-width: 1600px) {
