@@ -1,0 +1,92 @@
+/*
+ Theme Name:   Dyad Child
+ Theme URI:    http://technodabble.com/dyad-child/
+ Description:  Dyad Child Theme
+ Author:       Pepper Lebeck-Jobe
+ Author URI:   http://technodabble.com
+ Template:     dyad
+ Version:      0.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: blue, yellow, dark, responsive-layout, custom-colors, custom-header, custom-menu, editor-style, featured-images, rtl-language-support, sticky-post, threaded-comments, translation-ready, photoblogging
+ Text Domain:  dyad-child
+*/
+
+.banner-custom-header .site-banner-header h1:before {
+	display: none;
+}
+
+.site-banner-header:before,
+.site-banner-header:after {
+	display: none;
+}
+
+/* entry inner - separator */
+
+.is-singular .entry-inner:after,
+.is-singular .entry-inner:before,
+.error404 .entry-inner:after,
+.error404 .entry-inner:before,
+.page-template-eventbrite-index .page-header:after,
+.page-template-eventbrite-index .page-header:before,
+.single-event .entry-header:after,
+.single-event .entry-header:before {
+	display: none;
+}
+
+/* entry inner */
+
+.is-singular .entry-inner,
+.is-singular:not(.home).page-template-eventbrite-index .content-area {
+	margin: 0px auto 0;
+	position: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Actor" !important;
+}
+
+h1.entry-title {
+  font-family: "Montserrat" !important;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+hr {
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.highlight {
+	margin: 0px;
+	padding: 10px;
+  background-color: #E3EEF1;
+}
+
+.entry-title {
+	color: #ae40a5;
+}
+
+.site-logo-link img {
+  width: 180px;
+  height: 180px;
+}
+
+@media only screen and (max-width: 1600px) {
+
+	.site-banner-media,
+	.site-banner .site-banner-thumbnail {
+		padding-bottom: 50%;
+	}
+
+	.home .content-area,
+	.blog .content-area,
+	.single-format-image.has-post-thumbnail .content-area {
+		margin-top: 50%;
+	}
+}
