@@ -88,6 +88,39 @@ hr {
 	top: 10%;
 }
 
+.counter-container {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+.counter-title {
+	color: #fff;
+  font-family: "Montserrat" !important;
+	font-size: 14px;
+	margin: 0px;
+}
+
+.count-widget {
+	padding-top: 1.5rem;
+	width: 50%;
+}
+
+.counter {
+	font-family: "Birdseye", sans-serif;
+	font-size: 40px;
+	padding: 0px;
+	margin: 0px;
+	color: #FF1493;
+}
+
 @media only screen and (max-width: 1600px) {
 
 	.site-banner-media,

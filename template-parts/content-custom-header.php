@@ -29,6 +29,9 @@
 			<h1 class="entry-title site-description">
 				<?php echo $description; /* WPCS: xss ok. */ ?>
 			</h1>
+			<div class="counter-container">
+				<?php dynamic_sidebar( 'counter-bar' ); ?>
+			</div><!-- .counter-container -->
 
 		</div><!-- .site-banner-header -->
 	<?php endif; ?>
